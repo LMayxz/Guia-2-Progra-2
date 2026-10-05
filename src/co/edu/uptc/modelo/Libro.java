@@ -3,7 +3,7 @@ package co.edu.uptc.modelo;
 public class Libro {
     private String isbn;
     private String titulo;
-    private String autores;
+    private Strin autores;
     private int anioPublicacion;
     private String categoria;
     private String editorial;
