@@ -53,7 +53,6 @@ public class Libro {
     public double getPrecioVenta() { return precioVenta; }
     public void setPrecioVenta(double precioVenta) { this.precioVenta = precioVenta; }
 
-    public int getCantidadInvent```java
     public int getCantidadInventario() { return cantidadInventario; }
     public void setCantidadInventario(int cantidadInventario) { this.cantidadInventario = cantidadInventario; }
 
