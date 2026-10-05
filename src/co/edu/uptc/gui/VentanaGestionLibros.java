@@ -10,7 +10,12 @@ import java.util.List;
 
 public class VentanaGestionLibros extends JFrame {
 
-    private final ControladorLibros controlador;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private final ControladorLibros controlador;
 
     private JTextField txtIsbn, txtTitulo, txtAutores, txtAnio, txtCategoria, txtEditorial, txtPaginas, txtPrecio, txtCantidad, txtBuscar;
     private JComboBox<String> comboFormato;
